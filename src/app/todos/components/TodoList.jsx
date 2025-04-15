@@ -3,7 +3,7 @@ import TodoItem from "../components/TodoItem";
 
 function TodoList({ todos, onDelete }) {
   return (
-    <ul className="mt-[40px]">
+    <ul className="mt-[40px] mb-[40px]">
       {todos.map((todo) => (
         <li
           key={todo.id}
