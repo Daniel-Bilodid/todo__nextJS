@@ -7,7 +7,7 @@ function TodoList({ todos, onDelete }) {
       {todos.map((todo) => (
         <li
           key={todo.id}
-          className="max-w-[320px] mx-auto sm:max-w-none sm:mx-0 "
+          className="max-w-[320px] mx-auto sm:max-w-[592px] sm:mx-0 sm:w-full"
         >
           <TodoItem todo={todo.title} todoId={todo.id} onDelete={onDelete} />
         </li>
